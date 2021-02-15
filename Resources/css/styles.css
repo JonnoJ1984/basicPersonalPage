@@ -112,3 +112,49 @@ header{
     font-size: 1.5rem;
   }
 }
+
+/*Statements */
+#statements {
+  color: #fff;
+  background-color: #2A7397;
+  width: 100%;
+}
+
+#statements .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#statements .container .text-box{
+  max-width: 1300px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 100px 0;
+}
+
+#statements .container .text-box h2{
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+#statements .container .text-box li {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 10px;
+  line-height: 2rem;
+}
+
+@media only screen and (max-device-width: 480px){
+  #statements .container .text-box h2{
+    font-size: 1.5rem;
+  }
+
+  #statements .container .text-box li {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
+}
+
+
