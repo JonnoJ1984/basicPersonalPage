@@ -1,8 +1,33 @@
 html {
-  background-color: aquamarine;
+  background-color: rgb(209, 214, 213);
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   font-weight: 300;
   min-width: fit-content;
   max-width: 2000px;
 }
+
+header{
+  width: 100%;
+  height: auto; /*71 pixels ish*/
+  line-height: normal;
+  color: #fff;
+  background-color: #2b2b2b;
+  position: fixed;
+}
+
+.header-text{
+  display: flex;
+  padding: 1rem;
+}
+
+@media only screen and (max-device-width: 480px){  
+  .header-text {
+    justify-content: center;
+  }
+}
+
+.header-text h3 {
+  font-size: 1rem;
+}
+
