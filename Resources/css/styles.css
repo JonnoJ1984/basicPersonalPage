@@ -376,3 +376,13 @@ footer .footer-box {
 footer .footer-box img {
   width: 100px;  
 }
+
+@media only screen and (max-width: 480px){
+  footer .footer-box {
+    padding: 10px 
+  }
+  
+  footer .footer-box img {
+    width: 80px;  
+  }
+}
