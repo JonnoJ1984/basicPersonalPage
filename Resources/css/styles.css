@@ -247,3 +247,39 @@ header{
   }
 }
 
+/* Balance section */
+
+#balance {
+  width: 100%;
+  background-image: url(/Resources/images/balanceWall.png);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 800px;
+}
+
+#balance .container *{
+  background-color: none !important;
+}
+
+#balance .container .text-box{
+  width: 30%;
+  margin: auto;
+  font-size: 1.7rem;
+  color: #fff;
+  position: relative;
+  left: 300px;
+  text-shadow: 2px 2px black;
+  line-height: 50px;
+}
+
+#balance .container .text-box ul li:before {
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 35px;
+  background-image: url(/Resources/images/icons/check1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -35px;
+}
