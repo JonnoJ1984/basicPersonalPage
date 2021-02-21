@@ -347,5 +347,17 @@ header{
   }
 }
 
+/* Contact */
 
+#contact {
+  color: #2A7397;
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding: 100px;
+}
+
+#contact a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #2A7397;
+}
 
