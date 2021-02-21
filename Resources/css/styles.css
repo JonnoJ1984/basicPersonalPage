@@ -354,6 +354,7 @@ header{
   font-weight: 400;
   font-size: 1.4rem;
   padding: 100px;
+  margin-top: 100px;
 }
 
 #contact a:link, a:visited, a:active {
@@ -361,3 +362,17 @@ header{
   color: #2A7397;
 }
 
+/* Footer */
+ 
+footer {
+  height: 200px;
+  background-color:#2A7397;
+}
+
+footer .footer-box {
+  padding: 20px 
+}
+
+footer .footer-box img {
+  width: 100px;  
+}
