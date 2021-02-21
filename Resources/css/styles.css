@@ -307,6 +307,10 @@ header{
   color: #2A7397;
 }
 
+#more-things a {
+  text-decoration: none;
+}
+
 #more-things .container .text-box {
   font-size: 2rem;
   padding: 100px 20px;
